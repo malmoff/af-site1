@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+html,body,h1,h2,h3,h4,h5,h6,p,aside,article,section,div,main,header,footer,form,input,button,img,figure,figcaption,a,span,ul,ol,li,dd,dt,dl,details,summary,audio,video,iframe,embed,object,hr,br{box-sizing:border-box;font-family: 'Roboto', sans-serif;}
+body{font-family:sans-serif;font-size:15px;line-height:1.3;padding:0;margin:0}
+img{max-width:100%;height:auto}
+p{font-size:19px;line-height:1.6; font-family: 'Roboto', sans-serif;}
+h2{font-size:30px;font-weight:bolder;color:#3e3e3e;text-align:center}
+a{text-decoration:none}
+.wdh p{margin:0}a,button,.button,.icon{cursor:pointer}
+.wdh p:first-child{font-size:21px}
+.container{width:80%;margin:auto}
+.brand{font-size:18px;text-transform: uppercase}
+.brand h1{margin:0;font-size: 30px}.flx{display:flex;justify-content:space-between;align-items:center}
+header{background:#379884;color:#fff;border-bottom:#e8491d 3px solid;padding:10px}
+.box h2,.box p,.box-heading h3,.box-heading p{margin: 0}
+.home{background-color:#379884}
+.home-des-torc{display:flex;align-items:center;gap:40px;padding:30px}
+.home-content-torc{background:#fff;text-align:center;padding:20px;width:60%}
+.home-content-torc h2{font-weight:700;font-size:25px; color:#ff0000; line-height:1.3}
+.home-content-torc p{font-size:16px;padding:5px} 
+.home-btn{background:#e84a1d;border-radius:5px;padding:15px 35px;border:1px solid #e84a1d;color:#fff;text-transform:uppercase;box-shadow:rgba(0,0,0,0.35) 0 5px 15px}
+.home-btn a{color:#fff;font-weight:700}
+.about{padding:20px 0}
+.about-head-torc{text-align:center}
+.about-bottom-torc{display:flex;align-items:center;justify-content:space-between}
+.about-content-torc{width:50%}
+.about-content-torc h3{font-size:2rem;!important;font-weight:bolder;color:#c83223}
+.about-img{width:50%;text-align:center}
+.about-content-torc .home-btn{margin-top:20px}
+.about-content-torc ul{padding-top:10px;list-style:none;padding-left: 0}
+.boxes{margin-top:30px}
+.box{width:30%;padding:10px;border:2px solid #ec981d}
+.box h2{color:#c83223}.about-content-torc ul li i{margin-right:5px}
+.box p{font-size:1.3875rem!important;line-height:1.2;font-weight:700}
+.box-heading{text-align:center;margin-bottom:20px}
+.box-heading h1{font-size:3rem;font-weight:500}
+.box-heading h3{font-size:2rem;font-weight:700;color:#c83223}
+.box-heading p{font-weight:500;font-size:1.5rem}
+.box-content{display:flex;align-items:center;justify-content:space-between;text-align:center;margin-top:30px}
+.box-button{text-align:center;padding:10px}
+.work{background:#f5f5f5;margin-top:30px;text-align:center;padding-bottom:30px}
+.benifits1>div{flex-basis:50%}
+.benefits h2{text-align:center;padding-bottom:20px}
+.benifits1{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.benefits-img{border:2px solid #efefef;border:20px}
+.benifit-content-torc{display:flex;gap:20px;padding:10px}
+.igh{color:#c83223;font-size:25px}
+.gaurantee{background:#efefef;padding-bottom:30px;text-align:center;margin-top:20px}
+.ginfo{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 0}
+.gaurantee h3{text-align:center;padding:10px;margin:0}
+.gaurantee h2{margin-bottom:0}
+.footer{text-align:center;background:#444; padding:10px;}
+.footer-link-torc ul{display:flex;justify-content:center}
+.footer-link-torc ul{list-style:none}
+.footer-link-torc ul li a{margin:10px;color:#fff;font-size:16px;text-transform:uppercase;list-style:none}
+.footer-link-torc p{color:#fff;padding:10px;line-height:normal}
+@media screen and (max-width:768px){.container{width:95%}
+h2{font-size:1.5rem}
+	nav ul{position:absolute;background:#444;display:none;top:30px;right:0;z-index:10;padding:15px;margin:0;;list-style:none;width:max-content}
+	nav ul li{display:block;margin-bottom:10px}
+	nav ul li:last-child{margin-bottom:0}
+	nav ul li a{color:white}
+.box-heading h3{font-size:1.5rem}
+.box-heading h1{font-size:2.5rem}
+.pqr{flex-direction:column}
+.home-content-torc{width:100%}
+.about-content-torc{width:100%;padding-top:10px}
+.about-head-torc h2{font-size:24px;line-height:1.3}
+.about-content-torc .home-btn{margin:auto;display:block;margin-top:20px}
+.about-img{width:100%}
+.box-content{flex-direction:column}
+.box{width:100%;margin-bottom:30px}
+}
+@media screen and (min-width:768px){nav img{display:none}
+	nav ul{display: block;margin:0;padding: 0;list-style:none}
+	nav ul li{display:inline-block;margin:0;padding: 0;list-style:none}
+}
+@media screen and (min-width:768px) and (max-width:992px){.benifit-content-torc{padding-bottom:0}
+}
+nav{position:relative}
+nav ul li a{padding:10px;text-decoration:none;color:white}
+nav img{filter:invert(1)}
+
+
+input[type=text], select, textarea {
+  width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px;  box-sizing: border-box; margin-top: 6px;margin-bottom: 16px; resize: vertical;
+}
+input[type=submit] {    background-color: #4a90e2; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;}
+input[type=submit]:hover {background-color: #45a049;}
+
+/* Testimonials sektion */
+    #testimonials {
+      padding: 20px;
+      margin-top: 30px;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+    }
+
+    .testimonial {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .testimonial-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .testimonial-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .testimonial-location {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-text {
+      flex: 1;
+    }
+
+    .testimonial-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .testimonial-description {
+font-size: 20px;
+line-height: 1.5;
+font-family: "Roboto", sans-serif;
+font-style: italic;
+font-weight: 400;
+}
+
+    /* Responsivitet */
+    @media (max-width: 768px) {
+      .testimonial {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .testimonial img {
+        margin-bottom: 10px;
+      }
+      
+      .footer-link-torc ul li a {
+    font-size: 16px;
+  }
+    }
+
